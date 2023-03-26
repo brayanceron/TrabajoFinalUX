@@ -1,0 +1,381 @@
+#div_form_login{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 30px;
+}
+
+
+#icono_perfil{
+    width: 2.3em;
+    height: 2.3em;
+    margin-right: 100px;
+    margin-left: 5px;
+    border-radius: 100%;
+}
+#icono_notificacion{
+    width: 20px;
+    margin: 0px 100px 0px 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+#div_integrantes{
+    height: 350px;
+    background-color: lightgray;
+}
+#busc #diag_actividad{
+    display: none;
+}
+
+.usu_integrado{
+    background-color: darkslategray;
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 3px;
+    border-radius: 10px;
+}
+#img_usu_integrado {
+    width: 2.8em;
+    height: 2.8em;
+    border-radius: 50%;
+    margin: 1px;
+    display: inline;
+}
+#n_usu_integrado{
+    display: inline;
+    color: white;
+    margin: 2px;
+    font-size: 0.8em;
+}
+#c_usu_integrado{
+    width: 20px;
+    margin: 5px;
+}
+.en_linea{
+    display: inline-block;
+    margin: 1px;
+}
+
+
+
+
+
+
+
+.img_listar_terapias{
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    margin: 1px;
+    display: inline-block;
+    background-color: black;
+}
+.foto_listar_terapias{
+    width: 150px;
+}
+
+
+.actividad{
+    background-color: rgb(240, 240, 240);
+    border-radius: 7px;
+    margin: 5px;
+    height: auto;
+}
+#menu_actividad{
+    background-color: rgb(240, 240, 240);
+    border-radius: 7px;
+    width: 200px;
+    float: left;
+}
+#menu_actividad img{
+    width: 30px;
+}
+
+.actividad h6 {
+    font-size: 0.7em;
+    margin: 0px;
+}
+.actividad h5{
+
+    margin: 0px;
+}
+.act_enlinea{
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cont_actividad{
+    width: 100px;
+}
+.archivo{
+    background-color: lightgray;
+    margin: 2px;
+    padding: 2px;
+}
+.nombre_archivo{
+    font-size: 0.6rem;
+}
+
+
+
+
+#integrantes_terapia{
+    height: 300px;
+    background-color: lightgray;
+}
+
+
+
+
+.cont_terapias{
+    display: inline-block;
+    
+}
+.terapias_usu{
+    margin: 10px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100%;
+    padding: 5px;
+    background-color: darkblue;
+}
+
+.terapias_usu input[image]{
+    border-radius: 100%;
+    width: 200px;
+    
+}
+
+
+.menu_opciones_usuario{
+    width: 12%;
+  
+    height: 100vh;
+   
+    background-color: rgb(13, 13, 13);
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.panel_reproduccion{
+    width: 88%;
+   
+    height: 100vh;
+    
+    background-color: black;
+    
+    margin: 0px;
+    box-sizing: border-box;
+    float: right;
+}
+#reproduccion{
+    margin: 0px;
+    padding: 0px;
+}
+#cont_btn_reproducir_nuevos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: auto;
+    margin: auto;
+}
+#btn_reproducir_nuevos{
+     width: 200px;
+     margin-top: 150%;    
+     border-radius: 100%;
+     animation-name: animacion1;
+     animation-duration: 2s;
+     animation-delay: 5s;
+     animation-iteration-count: infinite;
+
+}
+@keyframes animacion1 {
+    0% {}
+    10%{box-shadow: 0 0 50px red,0 0 30px red,0 0 50px red;}
+    25%{box-shadow: 0 0 0 red,0 0 0px red,0 0 0px red;}
+    50%{}
+    75%{}
+    100%{}
+}
+
+
+#pausar_reproducir{
+    animation-name: animacion2;
+     animation-duration: 2s;
+     animation-delay: 5s;
+     animation-iteration-count: infinite;
+}
+@keyframes animacion2 {
+    0% {}
+    10%{box-shadow: 0 0 50px red,0 0 30px red,0 0 50px red;}
+    25%{box-shadow: 0 0 0 red,0 0 0px red,0 0 0px red;}
+    50%{}
+    75%{}
+    100%{}
+}
+
+
+#anterior_video{
+    animation-name: animacion3;
+     animation-duration: 2s;
+     animation-delay: 5s;
+     animation-iteration-count: infinite;
+}
+@keyframes animacion3 {
+    0% {}
+    10%{box-shadow: 0 0 50px red,0 0 30px red,0 0 50px red;}
+    25%{box-shadow: 0 0 0 red,0 0 0px red,0 0 0px red;}
+    50%{}
+    75%{}
+    100%{}
+}
+
+
+#siguiente_video{
+    animation-name: animacion4;
+     animation-duration: 2s;
+     animation-delay: 5s;
+     animation-iteration-count: infinite;
+}
+@keyframes animacion4 {
+    0% {}
+    10%{box-shadow: 0 0 50px red,0 0 30px red,0 0 50px red;}
+    25%{box-shadow: 0 0 0 red,0 0 0px red,0 0 0px red;}
+    50%{}
+    75%{}
+    100%{}
+}
+#btn_reiniciar{
+    animation-name: animacion5;
+     animation-duration: 2s;
+     animation-delay: 5s;
+     animation-iteration-count: infinite;
+}
+@keyframes animacion5 {
+    0% {}
+    10%{box-shadow: 0 0 50px red,0 0 30px red,0 0 50px red;}
+    25%{box-shadow: 0 0 0 red,0 0 0px red,0 0 0px red;}
+    50%{}
+    75%{}
+    100%{}
+}
+
+
+
+
+#btn_reproducir_nuevos:hover{
+    box-shadow: 0 0 50px blue,0 0 30px blue,0 0 50px blue;
+    transition: all 0.3s ease-in-out;
+}
+.opt_contoles{
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+    border-radius: 15px;
+    width: 10em;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+   
+}
+.opt_contoles:hover{
+    box-shadow: 0 0 50px blue,0 0 30px blue,0 0 50px blue;
+    transition: all 0.3s ease-in-out;
+}
+#opciones_reproduccion{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+
+#text_brn_reproducir{
+    font-size: 2em;
+    color: white;
+    margin: 0%;
+}
+
+
+
+#video_reproducir{
+width: 98%;
+height: 88vh;
+box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#foto_perfil{
+    display: inline-block;
+   
+    margin: 2px;
+}
+
+#foto_perfil img{
+    width: 18em;
+    height: 18em;
+    border-radius: 100%;
+    padding: 1px;
+}
+
+#infor_perfil{
+   
+   display: inline-block;
+    
+    margin: 2px;
+    padding: 1px;
+    
+}
+
+#logo_udenar{
+    width: 6em;
+
+
+}
+
+
+
+
+.icon_opt_user{
+    width: 2em;
+}
+
+
+.img_red_terapia{
+    border-radius: 100%;
+}

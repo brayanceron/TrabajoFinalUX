@@ -1,0 +1,9 @@
+Sansano Miralles, Héctor
+Pruebas sobre sitios web
+URI: http://hdl.handle.net/10045/69468
+DOI: 
+ISSN: 
+Abstract: 
+Se pretende realizar un software (de escritorio o bien 'on line') donde a partir de una URL se pueda: - obtener un mapa de navegación del sitio detectando enlaces, formularios y otros elementos estructurales. - probar el sitio web para verificar su buen funcionamiento: respuesta, enlaces rotos, formularios enviados, etc. - lanzar pruebas de carga (con múltiples accesos) con el fin de probar la robustez y tolerancia del sitio.
+Keywords:Sitio, Web, Página, URL, Pruebas, Análisis, Carga, Rendimiento, Formularios, Mapa, Navegación, Enlaces, Etiquetas, HTML
+info:eu-repo/semantics/bachelorThesis
